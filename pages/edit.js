@@ -175,12 +175,6 @@ const Edit = () => {
               Projects
             </Button>
             <Button
-              onClick={() => setCurrentTabs("SERVICES")}
-              type={currentTabs === "SERVICES" && "primary"}
-            >
-              Services
-            </Button>
-            <Button
               onClick={() => setCurrentTabs("ABOUT")}
               type={currentTabs === "ABOUT" && "primary"}
             >
